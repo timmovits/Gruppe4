@@ -1,0 +1,163 @@
+body{
+    background-color: #2e2925; 
+  margin: 0px;;
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 0px;
+}
+
+
+.button1{
+    
+    background-color: #f4c276;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px; 
+    
+}
+.button1:hover {
+    border-radius: 5px;
+    border: solid 2px black;
+   padding: 5px
+}
+
+
+
+p {
+    background-color: grey;
+    margin: 0px;
+}
+.button2{
+    background-color:#f4c276;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    
+}
+.button2:hover {
+    background-color: white;
+
+}
+
+.grid-container > div {
+ 
+  text-align: center;
+  font-size: 5vw;
+}
+.item1 {
+  
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+  }
+.item2{
+  
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+  }
+.item3{
+  
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+  }
+.item4{
+  
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+  }
+.item5{
+  
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+  }
+.item6{
+  
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+  }
+.item7{
+  
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+  }
+.item8{
+  
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+  }
+.item9{
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 1vw;
+  }
+.item10{
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 1vw;
+  }
+.item11{
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 1vw;
+  }
+.item12{
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 1vw;
+  }
+
+
+
+.item13 /*space*/{
+  
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding: 1vw;
+  }
+  .item14 {
+   grid-column-start: 2;
+   grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    padding: 1vw;
+  }
+  .item15 /*space*/{
+      display: inline-block;
+      height: 100%;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    padding: 1vw;
+  
+  }
+  
+ 
+  .item16 {
+    grid-column-start: 2;
+   grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    padding: 1vw;
+  }
+  .item17 /*space*/{ 
+    grid-row-start: 12;
+    grid-row-end: 13;
+    padding: 1vw;
+  }
+  
+  
