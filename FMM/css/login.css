@@ -31,6 +31,7 @@ select {
   color: #f4c276;
   letter-spacing: 30px;
   border-radius: 12px;
+  outline: none;
 }
 
 input[type="submit"] {
@@ -48,12 +49,14 @@ input[type="submit"] {
   color: #2e2925;
   text-transform: uppercase;
   border-radius: 12px;
+  outline: none;
 }
 
 input[type="submit"]:hover {
   background-color: #000000;
   color: #f4c276;
   border-radius: 12px;
+  outline: none;
 }
 
 div {
