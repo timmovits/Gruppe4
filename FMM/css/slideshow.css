@@ -70,7 +70,7 @@ img {vertical-align: middle;}
   top: 0;
   right: 0;
   background-color: rgba(46, 41, 37,0.8);
-  border-radius: 20px;rgba(46, 41, 37,0.8)
+  border-radius: 20px; 
 }
 .active, .dot:hover {
   background-color: #717171;
