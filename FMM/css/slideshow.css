@@ -55,7 +55,8 @@ img {vertical-align: middle;}
   bottom: 8px;
   width: 100%;
   text-align: center;
-  background-color: #2E2925;
+  background-color:  rgba(46, 41, 37,0.8);
+
   
 }
 
@@ -68,9 +69,8 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #2E2925;
-  border-radius: 20px;
-  opacity: 0.8;
+  background-color: rgba(46, 41, 37,0.8);
+  border-radius: 20px;rgba(46, 41, 37,0.8)
 }
 .active, .dot:hover {
   background-color: #717171;
