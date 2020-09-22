@@ -27,9 +27,10 @@ select {
   box-sizing: border-box;
   font-family: "Quicksand";
   font-weight: bolder;
+  text-transform: uppercase;
   font-size: 28px;
   color: #f4c276;
-  letter-spacing: 30px;
+  letter-spacing: 20px;
   border-radius: 12px;
   outline: none;
 }
@@ -77,6 +78,6 @@ h2 {
   font-family: "quicksand";
   text-align: center;
   color: #f4c276;
-  font-size: 28pt;
+  font-size: 24pt;
   font-weight: medium;
 }
