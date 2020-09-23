@@ -59,6 +59,12 @@ input[type="submit"]:hover {
   border-radius: 12px;
   outline: none;
 }
+input[type="submit"]:active {
+  background-color: #000000;
+  color: #f4c276;
+  border-radius: 12px;
+  outline: none;
+}
 
 div {
   border-radius: 5px;
