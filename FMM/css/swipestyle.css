@@ -1,4 +1,19 @@
 
+
+body{
+  background-color: #2e2925;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+p {
+  font-family: "Eb+Garamond";
+  color: #f4c276;
+  font-size: 15pt;
+  font-weight: 400;
+}
+
 h1{
     color: darkolivegreen;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +38,7 @@ h1{
 }
 
 .img-comp-img img {
-  display:block; 
+  display:block;
   border: double 5px black;
   width: 350px;
 }
@@ -39,3 +54,6 @@ h1{
   border-radius: 50%;
   border: dotted 1px black;
 }
+
+
+
