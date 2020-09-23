@@ -14,7 +14,7 @@ body{
 
 .button1{
     
-    background-color: #f4c276;
+    background-color: rgba(244, 194, 118, 0.5);
     text-align: center;
     padding: 5px;
     border: double 5px black;
@@ -24,7 +24,7 @@ body{
 }
 
 .button1:hover{
-  scrollbar-arrow-color: black;
+  background-color: rgb(244, 194, 118);
   cursor: pointer;
 }
 .button1:active {
@@ -71,10 +71,17 @@ p {
   font-size: 5vw;
 }
 .item1 {
-  
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
+    
+  }
+  .item1:hover {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
   }
 .item2{
   
@@ -82,11 +89,25 @@ p {
     grid-row-end: 2;
     padding: 1vw;
   }
+  .item2:hover {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
+  }
 .item3{
   
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
+  }
+  .item3:hover {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
   }
 .item4{
   
@@ -94,77 +115,102 @@ p {
     grid-row-end: 2;
     padding: 1vw;
   }
+  .item4:hover {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
+  }
 .item5{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item6{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item7{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item8{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item9{
   
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item10{
   
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item11{
   
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item12{
   
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 
-
-
-.item13 /*space*/{
-  
+  .item13 {
+   grid-column-start: 2;
+   grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
     padding: 1vw;
+    
   }
-  .item14 {
-   grid-column-start: 2;
-   grid-column-end: 4;
+
+  .item14 /*space*/{
+  
     grid-row-start: 6;
     grid-row-end: 7;
     padding: 1vw;
+    
   }
   .item15 /*space*/{
-      display: inline-block;
-      height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 7;
     grid-row-end: 8;
+    display: inline-block;
+    height: 100%;
     padding: 1vw;
-  
   }
   
  
