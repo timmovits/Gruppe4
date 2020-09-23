@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleguide.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Quicksand"
       rel="stylesheet"
@@ -15,7 +15,7 @@
   <body>
 
     <ul class="sidebar">
-      <li><a class="active" href="#skrifttyper">Skrifttyper</li></a>
+      <a  href="#skrifttyper">Skrifttyper</a>
       <a href="#farver">Farver</a>
       <a href="#knapper">Knapper</a>
       <a href="#ikoner">Ikoner</a>
@@ -167,7 +167,7 @@
       <hr />
       <section id="knapper">
       <h1>Knapper</h1>
-      <button class="button">OK</button>
+      <input type="submit" onclick="check(this.form)" value="OK" />
     </section>
     <br>
     <hr>
@@ -175,12 +175,30 @@
       <h1>Ikoner</h1>
       <link rel="icon" type="image/png" href="/FMM/Ikoner/billedeikon.png" />
       <link rel="icon" type="image/png" href="/FMM/Ikoner/playikon.png" />
+      <div class="flex-container">
+        <div><img src="/Ikoner/billedeikon.png">
+        billede ikon</div>
+        <div><img src="/Ikoner/lydikon.png">
+        Lyd ikon</div>
+        <div><img src="/Ikoner/playikon.png">
+        Play ikon</div>
+        <div><img src="/Ikoner/pauseikon.png">
+        Pause ikon</div>
+        <div><img src="/Ikoner/swipeikon.png">
+        Swipe ikon</div>
+        <div><img src="/Ikoner/tilbageikon.png">
+        Tilbage</div>
+        <div><img src="/Ikoner/krydsikon.png">
+        Kryds</div>
+      </div>
     </section>
 <hr>
     <section id="formular">
       <h1>Formular</h1>
       <input type="text" id="kode" name="firstname" placeholder="XXXXXXX" />
     </section>
+    <br>
+    <br>
     </div>
   </body>
 </html>

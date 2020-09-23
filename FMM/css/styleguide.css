@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #f4c276;
   color: white;
 }
 
@@ -158,6 +158,74 @@ select {
   font-size: 28px;
   color: #f4c276;
   letter-spacing: 20px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family: "quicksand";
+  color: #f4c276;
+}
+
+input[type="text"],
+select {
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #f4c276;
+  letter-spacing: 20px;
+  border-radius: 12px;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #f4c276;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-weight: bolder;
+  font-size: 28px;
+  color: #2e2925;
+  text-transform: uppercase;
+  border-radius: 12px;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #000000;
+  color: #f4c276;
+  border-radius: 12px;
+  outline: none;
+}
+input[type="submit"]:active {
+  background-color: #000000;
+  color: #f4c276;
   border-radius: 12px;
   outline: none;
 }
