@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #f4c276;
   color: white;
 }
 
@@ -160,4 +160,20 @@ select {
   letter-spacing: 20px;
   border-radius: 12px;
   outline: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 10vh;
+}
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family: "quicksand";
+  color: #f4c276;
 }
