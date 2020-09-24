@@ -142,32 +142,11 @@ xmp {
   color: ivory;
 }
 
-input[type="text"],
-select {
-  text-align: center;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family: "Quicksand";
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 28px;
-  color: #f4c276;
-  letter-spacing: 20px;
-  border-radius: 12px;
-  outline: none;
-}
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  max-width: 100%;
-  max-height: 100%;
+  object-fit: scale-down;
 }
 
 .flex-container > div {
@@ -177,6 +156,7 @@ select {
   font-size: 30px;
   font-family: "quicksand";
   color: #f4c276;
+  object-fit: scale-down;
 }
 
 input[type="text"],
