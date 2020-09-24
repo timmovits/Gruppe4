@@ -17,7 +17,6 @@ body {
     margin-top: 25vh;
     width: 80%;
     border: double 5px #f4c276;
-    
     z-index: -1;
     
     
@@ -54,5 +53,14 @@ body {
     grid-column-end: 10;
     grid-row-start: 6;
     grid-row-end: 7;
+}
+
+.lokation {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    height: 100%;
+    background-color: rgb(244, 194, 118);
 }
 }
