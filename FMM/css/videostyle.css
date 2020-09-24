@@ -25,6 +25,9 @@ p {
   color: #f4c276;
   font-size: 15pt;
   font-weight: 400;
+  border: solid;
+	border-radius: 20px;
+	text-align: center;
 }
 
 .container {
