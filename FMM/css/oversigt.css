@@ -41,6 +41,11 @@ body{
 p {
     background-color: grey;
     margin: 0px;
+    font-family: "quicksand";
+    color: #f4c276;
+    font-size: 17pt;
+    font-weight: medium;
+  }
 }
 .button2{
     background-color:#f4c276;
