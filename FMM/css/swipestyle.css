@@ -1,6 +1,4 @@
-
-
-body{
+body {
   background-color: #2e2925;
   padding-top: 20px;
   margin-bottom: 50px;
@@ -14,20 +12,16 @@ p {
   font-weight: 400;
 }
 
-h1{
-    color: darkolivegreen;
-    font-family: quicksand;
-    border: darkslategrey;
-
+h1 {
+  font-family: "quicksand";
+  color: #f4c276;
+  font-size: 28pt;
+  font-weight: medium;
 }
-
-
-
 
 .img-comp-container {
   position: relative;
-  height: fit-content; 
-  
+  height: fit-content;
 }
 
 .img-comp-img {
@@ -38,14 +32,14 @@ h1{
 }
 
 .img-comp-img img {
-  display:block;
+  display: block;
   border: double 5px black;
   width: 350px;
 }
 
 .img-comp-slider {
   position: absolute;
-  z-index:9;
+  z-index: 9;
   cursor: ew-resize;
   width: 40px;
   height: 55px;
@@ -54,6 +48,3 @@ h1{
   border-radius: 50%;
   border: dotted 1px black;
 }
-
-
-
