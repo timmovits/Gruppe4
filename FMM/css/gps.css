@@ -62,12 +62,8 @@ body {
     grid-row-start: 8;
     grid-row-end: 9;
     height: 100%;
-    /* background-color: rgb(244, 194, 118); */
-	background-color: #2E2925;
-	border: solid;
-	border-radius: 20px;
-	color: #f4c276;
-	text-align: center;
+    background-color: rgb(244, 194, 118);
+	
 	
 	
 }
