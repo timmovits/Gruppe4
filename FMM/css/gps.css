@@ -7,6 +7,7 @@ body {
     background-color: #2e2925;
     height: 100vh;
     overflow: hidden;
+	font-family: "eb-garamond", sans-serif; 
 }
 
 .map {
@@ -62,5 +63,8 @@ body {
     grid-row-end: 9;
     height: 100%;
     background-color: rgb(244, 194, 118);
+	
+	
+	
 }
 }
