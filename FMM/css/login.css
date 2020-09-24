@@ -6,7 +6,7 @@ html {
 }
 
 .bg {
-  background-image: url("/billeder/login-background.png");
+  background-image: url("../billeder/login-background.png");
   height: 100%;
   background-color: #2e2925;
 
