@@ -14,148 +14,97 @@ body{
 }
 
 
-.button1{
-    
-    background-color: rgba(244, 194, 118, 0.5);
-    text-align: center;
-    padding: 5px;
-    border: double 5px black;
-    outline: none;
-    margin: 2px;
 
-}
-
-.button1:hover{
-  background-color: rgb(244, 194, 118);
-  cursor: pointer;
-}
-.button1:active {
-    
-    border: solid 5px black;
-    outline: none;
-   padding: 5px
-}
-
-
-
-p {
-    background-color: grey;
-    margin: 0px;
-}
-.button2{
-    background-color:#f4c276;
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    border: double 5px black;
-    outline: none;
-}
-
-.button2:hover{
-  cursor: pointer;
-  
-}
-
-
-.button2:active{
-  background-color:#f4c276;
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    border: solid 5px black;
-    outline: none;
-  
-
-}
 .grid-container > div {
  
   text-align: center;
   font-size: 5vw;
 }
-.item1 {
+.item1{
+  
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
-    
-  }
-  .item1:hover {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 1vw;
-    border: dotted 2px #f4c276;
-    border-radius: 300px;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item2{
   
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
-  }
-  .item2:hover {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 1vw;
-    border: dotted 2px #f4c276;
-    border-radius: 300px;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item3{
   
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
-  }
-  .item3:hover {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 1vw;
-    border: dotted 2px #f4c276;
-    border-radius: 300px;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 .item4{
   
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 1vw;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
-  .item4:hover {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 1vw;
-    border: dotted 2px #f4c276;
-    border-radius: 300px;
-  }
-.item5{
-  
+.item5 {
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
-    opacity: 0.5;
-    cursor: not-allowed;
+    
+  }
+  .item5:hover {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
   }
 .item6{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
-    opacity: 0.5;
-    cursor: not-allowed;
+  }
+  .item6:hover {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
   }
 .item7{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
-    opacity: 0.5;
-    cursor: not-allowed;
+  }
+  .item7:hover {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
   }
 .item8{
   
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 1vw;
-    opacity: 0.5;
-    cursor: not-allowed;
   }
+  .item8:hover {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1vw;
+    border: dotted 2px #f4c276;
+    border-radius: 300px;
+  }
+
 .item9{
   
     grid-row-start: 3;
@@ -225,11 +174,64 @@ p {
 	font-family: "eb-garamond", sans-serif;
 
 
+
   }
   .item17 /*space*/{ 
     grid-row-start: 12;
     grid-row-end: 13;
     padding: 1vw;
   }
+  .button1{
+    
+    background-color: rgba(244, 194, 118, 0.5);
+    text-align: center;
+    padding: 5px;
+    border: double 5px black;
+    outline: none;
+    margin: 2px;
+
+}
+
+.button1:hover{
+  background-color: rgb(244, 194, 118);
+  cursor: pointer;
+}
+.button1:active {
+    
+    border: solid 5px black;
+    outline: none;
+   padding: 5px
+}
+
+
+
+p {
+    background-color: grey;
+    margin: 0px;
+}
+.button2{
+    background-color:#f4c276;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: double 5px black;
+    outline: none;
+}
+
+.button2:hover{
+  cursor: pointer;
   
+}
+
+
+.button2:active{
+  background-color:#f4c276;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border: solid 5px black;
+    outline: none;
+  
+
+}
   
