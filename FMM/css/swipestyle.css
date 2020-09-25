@@ -31,12 +31,14 @@ h1 {
   width: fit-content;
   height: fit-content;
   overflow: hidden;
+
 }
 
 .img-comp-img img {
   display: block;
   border: double 5px black;
   width: 350px;
+  
 }
 
 .img-comp-slider {
