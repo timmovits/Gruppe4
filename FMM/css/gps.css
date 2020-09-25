@@ -1,4 +1,67 @@
-@media screen and (max-width: 600px){
+body {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: #2e2925;
+    height: 100vh;
+    overflow: hidden;
+	font-family: "eb-garamond", sans-serif; 
+}
+
+.map {
+    display: block;
+    width: 400px;
+    border: double 5px #f4c276;
+    z-index: -1;
+    position: fixed;
+    top: 100px;
+}
+.stop1{
+    display: block;
+    border-radius: 300px;
+    width: 25px;
+    position: fixed;
+    top: 170px;
+    left: 25px;
+}
+
+
+.stop2{
+    display: block;
+    border-radius: 300px;
+    width: 25px;
+    position: fixed;
+    top: 170px;
+    left: 275px;
+}
+.stop3{
+    display: block;
+    border-radius: 300px;
+    width: 25px;
+    position: fixed;
+    top: 433px;
+    left: 373px;
+}
+
+.lokation {
+    
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+p {
+    font-family: "quicksand";
+    color: #f4c276;
+    font-size: 17pt;
+    font-weight: medium;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }  
+
+@media only screen and (max-width: 700px){
 
 body {
     display: grid;
@@ -12,60 +75,47 @@ body {
 
 .map {
     display: block;
-    position: absolute;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 25vh;
-    width: 80%;
+    width: 300px;
     border: double 5px #f4c276;
     z-index: -1;
-    
-    
+    position: fixed;
+    top: 100px;
+    left: 30px;
 }
 .stop1{
+    display: block;
     border-radius: 300px;
-    width: 15px;
-    margin-top: 7px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-
+    width: 20px;
+    position: fixed;
+    top: 153px;
+    left: 43px;
 }
 
 
 .stop2{
+    display: block;
     border-radius: 300px;
-    width: 15px;
-    margin-top: 7px;
-    margin-left: 5px;
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 5;
-
+    width: 20px;
+    position: fixed;
+    top: 153px;
+    left: 231px;
 }
 .stop3{
+    display: block;
     border-radius: 300px;
-    width: 15px;
-    margin-top: 25px;
-    margin-left: 5px;
-    grid-column-start: 9;
-    grid-column-end: 10;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    width: 20px;
+    position: fixed;
+    top: 350px;
+    left: 304px;
 }
 
 .lokation {
-    grid-column-start: 3;
-    grid-column-end: 9;
-    grid-row-start: 8;
-    grid-row-end: 9;
+    
     height: 100%;
- 
-	
+    position: fixed;
+    bottom: 0;
 }
-}
+
 
 p {
     font-family: "quicksand";
@@ -73,5 +123,7 @@ p {
     font-size: 17pt;
     font-weight: medium;
     text-align: center;
+    position: fixed;
+    bottom: 200px;
   }  
 }
