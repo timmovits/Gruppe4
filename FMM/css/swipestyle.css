@@ -10,6 +10,8 @@ p {
   color: #f4c276;
   font-size: 15pt;
   font-weight: 400;
+  position: fixed;
+  bottom: 50px;
 }
 
 h1 {
@@ -29,12 +31,14 @@ h1 {
   width: fit-content;
   height: fit-content;
   overflow: hidden;
+
 }
 
 .img-comp-img img {
   display: block;
   border: double 5px black;
   width: 350px;
+  
 }
 
 .img-comp-slider {
