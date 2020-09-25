@@ -10,6 +10,8 @@ p {
   color: #f4c276;
   font-size: 15pt;
   font-weight: 400;
+  position: fixed;
+  bottom: 50px;
 }
 
 h1 {
